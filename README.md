@@ -35,7 +35,31 @@ The output of this function occurs back in the Google Sheet `EmailLog`, which is
 
 If you have any further questions, [send mail.](mailto:saifbhatti@u.northwestern.edu)
 
+---
 
+### Request Sheet:
+
+<img src="https://i.gyazo.com/89cb1c1ac1e3778d9a0d0dd496119b01.png" style="width:100%">
+The orange cells are all user inputted information.
+
+### Candidate Sheet - User Input
+
+
+<img src="https://i.gyazo.com/1eb5df849ffa62be24a9caa50451e154.png" style="width:100%">
+
+The orange cells are all user inputted information.
+### Candidate Sheet - User Decision
+
+<img src="https://i.gyazo.com/e889311f7387ef38794fc49ad2d8f31c.png" style="width:100%">
+
+The orange cells are all user inputted information.
+
+### EmailLog Sheet:
+<img src="https://i.gyazo.com/e889311f7387ef38794fc49ad2d8f31c.png" style="width:100%">
+
+This is the output from `checkEmails()` function.
+
+---
 ### Example: Request Email
 
 `Can you work for ABC Zoo at 23 Zootopia Close from 04/03/2018 at 09:00 to 04/20/2018 at 17:00? Reply YES or NO.`
@@ -51,7 +75,7 @@ If you have any further questions, [send mail.](mailto:saifbhatti@u.northwestern
 `A colleague was selected. If a future need arises, we will contact you.`
 
 
-
+---
 
 ## Improvements
 
