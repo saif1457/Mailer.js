@@ -4,5 +4,5 @@ A short Google script that automates sending mail, retrieving replies and updati
 
 
 
-<img src="http://res.cloudinary.com/dcl78rpmg/image/upload/c_scale,q_33,w_2522/v1517602325/andrew-neel-133200_wez1wd.jpg" style="width:100%"> [Photo by Andrew Neel on Unsplash](https://unsplash.com/photos/1-29wyvvLJA)
-Photo by Jay Wennington on Unsplash
+<img src="http://res.cloudinary.com/dcl78rpmg/image/upload/q_40/v1518433399/jay-wennington-2250_bpyr6z.jpg" style="width:100%"> [Photo by Jay Wennington on Unsplash](https://unsplash.com/photos/loAgTdeDcIU)
+
