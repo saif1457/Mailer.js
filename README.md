@@ -9,13 +9,13 @@ There are two functions `sendEmails()` and `checkMail` - no prizes for guessing 
 
 ## sendEmails()
 
-`sendEmails()` begins by taking in information of the candidate from `Candidates` in the Google Sheets, as well as informatio about the job request, the supervisor details and location/times - which are all user-inputted values in the `Request` sheet.
+`sendEmails()` begins by taking in information of the candidate from `Candidates` in the Google Sheets, as well as information about the job request, the supervisor details and location/times - which are all user-inputted values in the `Request` sheet.
 
 After more user-input of the candidate details in the `Candidates` sheet, the email will check if `column P` has logged this candidate as `EMAIL_SENT`. Originally when a new candidate is added to the list, this column value will be empty, so the first request email will be sent. If the candidate has already been emailed then it will look at `column O` to see if you've made a decision out of `Confirmed` or `Filled`. 
 
 Once you've decided, if `Confirmed`, the script will send an according email giving the candidate a reminder of details such as when and where to be, as well as supervisor contact details.
 
-if `Filled`, it will sent a very upsetting rejection letter.
+if `Filled`, it will send a very upsetting rejection letter. :disappointed_relieved:
 
 
 ## checkEmail()
@@ -28,7 +28,7 @@ The output of this function occurs back in the Google Sheet `EmailLog`, which is
 
 ## Instructions for use:
 
-- Copy the Google Sheet into your GDrive.
+- Copy the [Google Sheet into your GDrive.](https://docs.google.com/spreadsheets/d/13R153zrVxPanArFD4faLedq6qBUz48S7bsDMLdercGE/edit?usp=sharing)
 - Either run the script natively from ~~this Google Script repo~~ (apparently Google decided to have "an internal error has occurred and your request was not completed.")
 - In light of the above, the best way is to open the Google Sheet you just copied, and go `Tools > Script Editor` and copy and paste the Mailer.js code into there.
 - Save, and run.
